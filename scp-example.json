@@ -39,7 +39,8 @@
                  "ArnNotLike": {
                      "aws:PrincipalARN": [
                         "arn:aws:iam::*:role/lw-iam-*",
-                        "arn:aws:iam::*:role/*-laceworkcws*"
+                        "arn:aws:iam::*:role/*-laceworkcws*",
+                        "arn:aws:iam::*:role/*-laceworkcwsrolesa/LACEWORK-CFG-external"
                      ]
                  }
              }
