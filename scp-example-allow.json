@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "AllowLaceworkCSPMAccess",
+        "Effect": "Allow",
+        "Action": "*",
+        "Resource": "*",
+        "Condition": {
+          "ArnLike": {
+            "aws:PrincipalArn": "arn:aws:iam::*:role/*-laceworkcwsrole-sa"
+          }
+        }
+      }
+    ]
+  }
